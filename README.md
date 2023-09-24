@@ -1,5 +1,7 @@
 # Consultora Systech-Solutions
 
+![conglomerado](Imagenes/Systech.png)
+
 ## 👥​Cliente
 
 ![conglomerado](Imagenes/Conglomerado.png)
@@ -32,27 +34,33 @@ El objetivo principal de este proyecto es brindar a nuestro cliente un análisis
 ## ​⚙️Procesos
 
 - **Semana 1-2: Puesta en marcha el proyecto y trabajo con datos**
-  - EDA Preliminar
-  - ETL Preliminar
-  - Identificación de KPI's
-  - Stack Tecnológico
+  - Se realizó un ETL-EDA Preliminar para identificar que tipo de datos se encuentran en los archivos proporcionados por el cliente y la calidad de los mismos.
+  - Identificación de KPI's (Se detallan más adelante)
+  - Se definió el Stack Tecnológico para los cuales utilizaron principalmente los servicios de Google Cloud Platform.
 
-![ST](Imagenes/Stack_Tecnologico.png)
+  ![ST](Imagenes/Stack_Tecnologico.png)
+
+  Los detalles se explican en 📁​[Semana 1-2]()
 
 - **Semana 3-4: Data Engineering**
-  - Carga de datos crudos a Cloud Storage
-  - ETL Completo
-  - Diseño del modelo Entidad-Relación
+  - Se almacenó toda la data en Cloud Storage.
+  - Se realizó un ETL completo y a su vez se diseñó el modelo Entidad-Relación junto con un diccionario de datos.
   - Creación de un Data Warehouse en BigQuey
   - Automatización de los procesos a través de Cloud Function y Cloud Scheduler
 
-![GCP](https://media.licdn.com/dms/image/C4E12AQGutSaMcRi_CQ/article-cover_image-shrink_600_2000/0/1536595074491?e=2147483647&v=beta&t=LPRcdaKCPiWaOX46EwGOZFBWF-ZqCXqT35emarsmzXo)
+  ![GCP](https://media.licdn.com/dms/image/C4E12AQGutSaMcRi_CQ/article-cover_image-shrink_600_2000/0/1536595074491?e=2147483647&v=beta&t=LPRcdaKCPiWaOX46EwGOZFBWF-ZqCXqT35emarsmzXo)
+  
+  Los detalles se explican en 📁​[Semana 3-4]()
 
 - **Semana 5-6: Etapa de analytics y Machine Learning**
-  - Dashboard
-  - Storytelling
-  - Modelos de Machine Learning
-  - Despliegue del Sistema de Recomendación
+  - Se aplicó PowerBI para generar Dashboard y presentar el análisis, métricas y KPI's.
+  - Preprocesamiento de los datos para análisis de Machine Learning
+  - Se crearon modelos de Machine Learning
+  - Despliegue del Sistema de Recomendación de restaurantes a través de Streamlit.
+
+  ![Dashboard](https://techneaux.com/wp-content/uploads/power-bi-banner.jpg)
+
+  Los detalles se explican en 📁​[Semana 5-6]()
 
 ## ✅KPIs
 
@@ -80,3 +88,4 @@ Además, las recomendaciones sobre la ubicación de nuevos locales y el sistema 
 
 ## 🙌​Actualizaciones y Agradecimiento
 
+*¡Gracias por revisar este proyecto 🤗! Si deseas estar al tanto de futuras actualizaciones, te invito a marcar el repositorio con un estrella ⭐. Puedes encontrar la opción para hacerlo en la parte superior derecha de la página. Tu apoyo es muy apreciado.*
