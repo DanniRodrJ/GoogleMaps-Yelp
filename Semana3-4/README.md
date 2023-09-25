@@ -24,3 +24,5 @@ Por lo tanto, a través de estos schemas se puede extraer la información con co
 Para automatizar el proceso ETL cada vez que llegue data nueva al bucket "data_extraccion", se crearon dos funciones en Cloud Functions llamadas "etl-yelp" y "etl-google", las cuales se ejecutan una vez que son llamadas por Cloud Scheduler (actúa como temporizador) semanalmente.
 
 ![Cloud_Functions](../Imagenes/Cloud_Functions.png)
+
+![Google_Scheluder](../Imagenes/Google_Scheluder.png)
