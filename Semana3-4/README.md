@@ -1,0 +1,4 @@
+- En la Plataforma de Google Cloud, se utilizó Cloud Storage se establecieron 3 buckets. Uno llamado "data_cruda" para la data proporcionada por el cliente, otro llamado "data_clean" donde se almacena la data limpia producto del ETL completo, y el bucket "data_extraccion" el cual recibirá toda la data nueva.
+  - Se realizó un ETL completo y a su vez se diseñó el modelo Entidad-Relación junto con un diccionario de datos.
+  - Creación de un Data Warehouse en BigQuey, el cual recibe los archivos del bucket "data_limpia" y a partir de ahí se generan las tablas para ser consultadas por medio de lenguaje SQL
+  - Automatización de los procesos a través de Cloud Function y Cloud Scheduler
