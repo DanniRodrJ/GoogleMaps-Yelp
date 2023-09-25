@@ -21,7 +21,7 @@ En primer lugar, se identificaron las columnas importantes que podrían ser úti
 
 Además, se llevó a cabo un análisis de las reseñas por estado en ambas plataformas, identificando los diez estados con mayor cantidad de reseñas. A su vez, se realizó una investigación sobre los diez estados con el mayor Producto Bruto Interno (PBI) hasta la fecha en los Estados Unidos. Como resultado, se seleccionaron los estados que estaban presentes en los tres listados principales, los cuales fueron California, Pennsylvania y Florida.
 
-
+![3_Estados](../Imagenes/Estados.png)
 
 ## 🧩​Stack Tecnológico
 
@@ -39,7 +39,7 @@ Utilizando finalmente el siguiente Stack, basado principalmente en Google Cloud 
 
 ## 🛠️​Metodología Propuesta
 
-En la realización del proyecto, se utilizó el **diagrama de Gantt** como una herramienta clave para facilitar la planificación y seguimiento de las actividades. Este diagrama brindó una representación visual clara de las tareas, su secuencia y duración en el tiempo. Gracias a esto, pudimos organizar mejor el trabajo, asignar recursos de manera efectiva y coordinar las actividades entre los miembros del equipo.
+En la realización del proyecto, se utilizó el [**diagrama de Gantt**](https://github.com/DanniRodrJ/GoogleMaps-Yelp/blob/main/Semana1-2/Diagrama%20de%20Gantt.pdf) como una herramienta clave para facilitar la planificación y seguimiento de las actividades. Este diagrama brindó una representación visual clara de las tareas, su secuencia y duración en el tiempo. Gracias a esto, pudimos organizar mejor el trabajo, asignar recursos de manera efectiva y coordinar las actividades entre los miembros del equipo.
 
 Además, se llevaron a cabo **reuniones regularmente** para mantener la comunicación y evaluar el progreso del proyecto. Estas reuniones se programaron los días lunes, miércoles y viernes en horario de tarde-noche, con el propósito de determinar las tareas a desarrollar y abordar cualquier problema o desafío que surgiera durante el proceso. Se reservaron otros días para reuniones de emergencia, que se utilizaron para resolver problemas puntuales que surgieron durante el desarrollo del proyecto.
 
