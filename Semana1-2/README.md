@@ -4,7 +4,11 @@ Fue proporcionada por el cliente a través de Google Drive y que a partir de ell
 
 ## 👀ETL-EDA Premilinar
 
-A través de esta exploración se establecieron los criterios necesarios para desarrollar el proyecto. Por un lado definimos las columnas importantes y que pudiesen ser de utilidad, mientras que por otro lado se realizaron algunas transformaciones para poder definir los rubros clave. Los cuales fueron los siguientes:
+Puedes acceder a los notebooks por medio de 📁[Eda Preliminar](https://github.com/DanniRodrJ/GoogleMaps-Yelp/tree/main/Semana1-2/EDA%20Preliminar)
+
+Durante esta exploración, se establecieron los criterios necesarios y se definieron los alcances para el desarrollo del proyecto.
+
+En primer lugar, se identificaron las columnas importantes que podrían ser útiles. Además, se realizaron algunas transformaciones para determinar los rubros clave. Los rubros seleccionados fueron los siguientes:
 
 ```Python
     target_categories = [
@@ -14,6 +18,10 @@ A través de esta exploración se establecieron los criterios necesarios para de
     'frozen yogurt', 'salad', 'cake', 'donut',
     'sandwich', 'chicken', 'pizza', 'burguer', 'hot dog']
 ```
+
+Además, se llevó a cabo un análisis de las reseñas por estado en ambas plataformas, identificando los diez estados con mayor cantidad de reseñas. A su vez, se realizó una investigación sobre los diez estados con el mayor Producto Bruto Interno (PBI) hasta la fecha en los Estados Unidos. Como resultado, se seleccionaron los estados que estaban presentes en los tres listados principales, los cuales fueron California, Pennsylvania y Florida.
+
+
 
 ## 🧩​Stack Tecnológico
 
@@ -25,10 +33,14 @@ Donde el almacenamiento centralizado iba a ocurrir aplicando tecnologías de Had
 
 Sin embargo, al final se optó por migrar a la nube de Google Cloud Platform. Principalmente este cambio se debió a que podíamos simplificar la gestión y el mantenimiento de la infraestructura lo que nos permitió concentrarnos en el desarrollo del proyecto.
 
-Utilizando finalmente el siguiente Stack, basado en principalmente en Google Cloud Platform (GCP)
+Utilizando finalmente el siguiente Stack, basado principalmente en Google Cloud Platform (GCP)
 
 ![stack_anterior](/Imagenes/Stack_Tecnologico.png)
 
 ## 🛠️​Metodología Propuesta
 
-El diagrama de Gantt fue utilizado en la realización del proyecto para facilitar la planificación y seguimiento de las actividades. Proporcionó una representación visual clara de las tareas, su secuencia y duración en el tiempo. Esto permitió una mejor organización del trabajo, asignación de recursos y coordinación entre los miembros del equipo. Además, el diagrama de Gantt ayudó a identificar hitos y tareas críticas, lo que permitió priorizar y enfocar los esfuerzos en los aspectos clave del proyecto.
+En la realización del proyecto, se utilizó el **diagrama de Gantt** como una herramienta clave para facilitar la planificación y seguimiento de las actividades. Este diagrama brindó una representación visual clara de las tareas, su secuencia y duración en el tiempo. Gracias a esto, pudimos organizar mejor el trabajo, asignar recursos de manera efectiva y coordinar las actividades entre los miembros del equipo.
+
+Además, se llevaron a cabo **reuniones regularmente** para mantener la comunicación y evaluar el progreso del proyecto. Estas reuniones se programaron los días lunes, miércoles y viernes en horario de tarde-noche, con el propósito de determinar las tareas a desarrollar y abordar cualquier problema o desafío que surgiera durante el proceso. Se reservaron otros días para reuniones de emergencia, que se utilizaron para resolver problemas puntuales que surgieron durante el desarrollo del proyecto.
+
+Por otro lado, se estableció un ritmo de **reuniones con el Product Owner** cada semana y media. Estas reuniones tenían como objetivo presentar el trabajo realizado hasta el momento y recibir feedback valioso de su parte. Esta interacción periódica permitió ajustar y mejorar continuamente el proyecto en función de las necesidades y expectativas del cliente.
