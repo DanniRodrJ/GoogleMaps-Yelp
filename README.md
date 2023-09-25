@@ -1,4 +1,4 @@
-# Consultora Systech-Solutions
+# Consultora SysTech-Solutions
 
 ![conglomerado](Imagenes/Systech.png)
 
@@ -88,6 +88,8 @@ Nuestro análisis proporcionó a nuestro cliente una visión integral del mercad
 Además, las recomendaciones sobre la ubicación de nuevos locales y el sistema de recomendación personalizado ofrecieron a los usuarios una experiencia mejorada y más personalizada, al tiempo que impulsaron el crecimiento y la fidelidad del cliente.
 
 ## ​🤝​Equipo desarrollador
+
+Si deseas contactarnos o conocer más sobre nuestro trabajo, simplemente haz clic en cualquiera de nuestros nombres y serás redirigido a nuestros perfiles de LinkedIn. Estaremos encantados de responder a tus consultas y compartir más detalles sobre nuestras habilidades y experiencia. 
 
 <div align="center">
   
