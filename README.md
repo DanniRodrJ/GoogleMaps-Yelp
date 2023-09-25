@@ -14,7 +14,7 @@ El sector de restaurantes en Estados Unidos es un mercado altamente competitivo 
 
 Estas plataformas de reseñas permiten a los usuarios compartir sus experiencias y opiniones sobre los negocios, ofreciendo una visión directa de la satisfacción del cliente y la calidad de los servicios ofrecidos. Sin embargo, el procesamiento y análisis de la gran cantidad de datos generados por las reseñas puede resultar un desafío para las empresas.
 
-En este contexto, hemos sido contratados por un conglomerado de empresas del sector de restaurantes y afines para llevar a cabo este análisis exhaustivo del mercado.
+En este contexto, hemos sido contratados por un conglomerado de empresas del sector de restaurantes para llevar a cabo este análisis detallado del mercado estadounidense.
 
 ## 🎯​Objetivo
 
@@ -36,11 +36,11 @@ El objetivo principal de este proyecto es brindar a nuestro cliente un análisis
 - **Semana 1-2: Puesta en marcha el proyecto y trabajo con datos**
   - Se realizó un ETL-EDA Preliminar para identificar que tipo de datos se encuentran en los archivos proporcionados por el cliente y la calidad de los mismos.
   - Identificación de KPI's (Se detallan más adelante)
-  - Se definió el Stack Tecnológico para los cuales utilizaron principalmente los servicios de Google Cloud Platform.
+  - Se definió el Stack Tecnológico para los cuales se utilizaron principalmente los servicios de Google Cloud Platform.
 
   ![ST](Imagenes/Stack_Tecnologico.png)
 
-  Los detalles se explican en 📁​[Semana 1-2]()
+  Los detalles se explican en 📁​[Semana 1-2](https://github.com/DanniRodrJ/GoogleMaps-Yelp/tree/main/Semana1-2)
 
 - **Semana 3-4: Data Engineering**
   - Se almacenó toda la data en Cloud Storage.
@@ -50,7 +50,7 @@ El objetivo principal de este proyecto es brindar a nuestro cliente un análisis
 
   ![GCP](https://media.licdn.com/dms/image/C4E12AQGutSaMcRi_CQ/article-cover_image-shrink_600_2000/0/1536595074491?e=2147483647&v=beta&t=LPRcdaKCPiWaOX46EwGOZFBWF-ZqCXqT35emarsmzXo)
   
-  Los detalles se explican en 📁​[Semana 3-4]()
+  Los detalles se explican en 📁​[Semana 3-4](https://github.com/DanniRodrJ/GoogleMaps-Yelp/tree/main/Semana3-4)
 
 - **Semana 5-6: Etapa de analytics y Machine Learning**
   - Se aplicó PowerBI para generar Dashboard y presentar el análisis, métricas y KPI's.
@@ -64,9 +64,24 @@ El objetivo principal de este proyecto es brindar a nuestro cliente un análisis
 
 ## ✅KPIs
 
+Antes de crear los dashboards interactivos en PowerBI, se llevaron a cabo una serie de análisis y visualizaciones a través de un EDA completo para detectar patrones y tendencias en las características únicas de los restaurantes. Además, se establecieron cinco indicadores clave de rendimiento (KPIs) para medir el progreso en términos de calidad, cantidad y naturaleza de los datos.
+
+- **ISC (Índice de satisfacción del cliente)**: mide la satisfacción general de nuestros clientes a través de las reseñas en Yelp y Google. Se calcula tomando el promedio de las calificaciones en estas plataformas.
+  - Objetivo: Aumentar 3% anual el promedio de calificaciones
+
+- **REP (ratio de experiencias positivas)**: refleja la proporción de reseñas con calificaciones de 4 o 5 estrellas en relación con el total de reseñas. Nos permite medir el nivel general de satisfacción de nuestros clientes.
+  - Objetivo: Aumentar 0.01 por trimestre
+
+- **IOM (Índice de oportunidades de mejora)**: representa la proporción de reseñas con calificaciones de 1 o 2 estrellas en relación con el total de reseñas. Nos ayuda a identificar áreas específicas que necesitan atención.
+  - Objetivo: Disminuir 0.01 por trimestre
+
+Al final estos KPIs son empleados tanto para la plataforma de Yelp como la de Google Maps, resultando 6 en total.
+
 ## 🤖Machine Learning
 
-## Resultados y conclusiones
+Link del Producto [restaurant_recommendation_system](https://mainpy-bxwrzicy85lxappaf4n3vze.streamlit.app/)
+
+## 💯​Resultados y conclusiones
 
 Nuestro análisis proporcionó a nuestro cliente una visión integral del mercado estadounidense en el sector de restaurantes y negocios afines. Los insights obtenidos a partir de las opiniones de los usuarios en Yelp y Google Maps les ayudaron a comprender las preferencias y tendencias del mercado, identificar oportunidades de crecimiento y tomar decisiones estratégicas informadas.
 
