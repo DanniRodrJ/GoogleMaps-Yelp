@@ -1,4 +1,4 @@
-# ```YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS```
+# ```Yelp & Google Maps - Reviews and Recommendations```
 
 ## Consultora SysTech-Solutions
 
