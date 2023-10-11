@@ -106,7 +106,7 @@ Si deseas contactarnos o conocer más sobre nuestro trabajo, simplemente haz cli
   | :---: | :---: | :---: |
   
 *Data Analysis-Data Science*
-| [<img src="https://media.licdn.com/dms/image/D4D03AQFaq_v7M-NYjQ/profile-displayphoto-shrink_400_400/0/1672164476110?e=1701302400&v=beta&t=dL2_PsmeInd52dUcMK3bltuDBgQ28Z510cEsVAT6yHw" width=115><br><sub>Rodrigo Bogado</sub>](https://www.linkedin.com/in/rodrigo-bogado-a64b4925b/) | [<img src="https://media.licdn.com/dms/image/D4E35AQE2taUszF6EvA/profile-framedphoto-shrink_400_400/0/1694566439350?e=1696132800&v=beta&t=y1p9LovJ_moRl19NZjfr67hV02tvFIYV9EHLhzetHek" width=115><br><sub>Samuel Belapatiño</sub>](https://www.linkedin.com/in/samuel-sa%C3%BAl-belapati%C3%B1o-quiroz-915462264/) |
+| [<img src="https://media.licdn.com/dms/image/D4D03AQFaq_v7M-NYjQ/profile-displayphoto-shrink_400_400/0/1672164476110?e=1701302400&v=beta&t=dL2_PsmeInd52dUcMK3bltuDBgQ28Z510cEsVAT6yHw" width=115><br><sub>Rodrigo Bogado</sub>](https://www.linkedin.com/in/rodrigo-bogado-a64b4925b/) | [<img src="https://media.licdn.com/dms/image/D4E35AQE2taUszF6EvA/profile-framedphoto-shrink_400_400/0/1694566439350?e=1697641200&v=beta&t=PjhSHrUjoVImTdVbxp5ZlAjHpkLtvi1P6wNW8J9eX10" width=115><br><sub>Samuel Belapatiño</sub>](https://www.linkedin.com/in/samuel-sa%C3%BAl-belapati%C3%B1o-quiroz-915462264/) |
   | :---: | :---: |
 
 <div align="left">
