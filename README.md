@@ -81,6 +81,8 @@ Al final estos KPIs son empleados tanto para la plataforma de Yelp como la de Go
 
 ## 🤖Machine Learning
 
+⚠️​ Nuestro sistema de recomendación actualmente está siendo mejorado y actualizado 🚧, pero te dejamos la versión Beta del producto.
+
 Link del Producto [restaurant_recommendation_system](https://mainpy-bxwrzicy85lxappaf4n3vze.streamlit.app/)
 
 ## 💯​Resultados y conclusiones
