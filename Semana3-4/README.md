@@ -6,13 +6,19 @@ En la Plataforma de Google Cloud, se utilizó Cloud Storage en el cual se establ
 2. **Bucket** ```data_limpia```: almacena toda la data limpia producto del proceso ETL completo sumado a la data nueva limpia que llegue
 3. **Bucket** ```carga_incremental```: posee 2 carpetas:
    1. **data_historica**: posee 2 archivos (Google y Yelp), donde se tiene los id nuevos que se ha recibido tanto de Google como Yelp agregándole una columna a la data llamada ```fecha_actual```
-   2. *Google*: se almacenan los archivos temporales con data nueva de Google (una vez agrega a BigQuery, los archivos son eliminados)
-   3. *Yelp*: se almacenan los archivos temporales con data nueva de Yelp (una vez agrega a BigQuery, los archivos son eliminados)
-4. **Bucket** ```data_extraccion```: el cual recibirá toda la data nueva semanalmente.
+   2. **Google**: se almacenan los archivos temporales con data nueva de Google (una vez agrega a BigQuery, los archivos son eliminados)
+   3. **Yelp**: se almacenan los archivos temporales con data nueva de Yelp (una vez agrega a BigQuery, los archivos son eliminados)
+4. **Bucket** ```data_extraccion```: el cual recibirá toda los archivos nuevos semanalmente.
 
 ![Cloud_Storage](../Imagenes/Cloud_Storage.png)
 
 ## Modelo Entidad-Relación
+
+- **Esquema relacional de Yelp**
+![Yelp-ER](../Imagenes/ER-Yelp.png)
+
+- **Esquema relacional de Google**
+![Google-ER](../Imagenes/ER-Google.png)
 
 ## 🛢️​Data Warehouse
 
