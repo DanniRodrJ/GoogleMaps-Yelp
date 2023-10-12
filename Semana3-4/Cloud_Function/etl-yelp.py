@@ -77,7 +77,6 @@ def transform_business_review(df):
     Return:
       El DataFrame con los registros nuevos.
     """
-    df_clean.drop(['Date_received'], axis=1, inplace=True)
     # Realizar el merge entre los archivos "df_received" y "df_clean" basado en "business_id"
     df_merged = df_received.merge(df_clean, how='inner', on=['business_id'])
     # Los registros que no coinciden son los registros nuevos.
@@ -240,7 +239,7 @@ def transform_business_review(df):
   fecha_actual = datetime.datetime.now().date()  # Obtener la fecha actual
   # Crear un nuevo DataFrame con las columnas 'business_id' y 'fecha_actual'
   nuevo_df = pd.DataFrame({
-    'business_id': business['business_id'],
+    'business_id': business_final['business_id'],
     'fecha_actual': fecha_actual})
   # Extraer el archivo Yelp existente de la data historica
   bucket_name = 'carga_incremental'
