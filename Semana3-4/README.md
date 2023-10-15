@@ -20,6 +20,8 @@ En la Plataforma de Google Cloud, se utilizó Cloud Storage en el cual se establ
 - **Esquema relacional de Google**
 ![Google-ER](../Imagenes/ER-Google.png)
 
+Se establecieron tablas linkeadas para representar las relaciones entre entidades, como por ejemplo la relación entre un negocio y sus categorías. Un negocio o restaurante puede tener asociada varias categorías.
+
 ## 🛢️​Data Warehouse
 
 El Data Warehouse se creó a través de BigQuery, el cual recibe los archivos del bucket "carga_incremental" luego del proceso ETL retornando 2 schemas uno llamado "Tabla_Google" y otro "Tabla_Yelp". De los cuales cada uno de ellos está conformado por las distintas tablas expresadas en el modelo ER.
