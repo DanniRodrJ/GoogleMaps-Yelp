@@ -1,3 +1,6 @@
+
+# ```Trabajando con los datos```
+
 ## 💾Data Lake
 
 En la Plataforma de Google Cloud, se utilizó Cloud Storage en el cual se establecieron 4 buckets.
@@ -20,7 +23,10 @@ En la Plataforma de Google Cloud, se utilizó Cloud Storage en el cual se establ
 - **Esquema relacional de Google**
 ![Google-ER](../Imagenes/ER-Google.png)
 
-Se establecieron tablas linkeadas para representar las relaciones entre entidades, como por ejemplo la relación entre un negocio y sus categorías. Un negocio o restaurante puede tener asociada varias categorías.
+Se establecieron tablas linkeadas para representar las relaciones entre entidades. Por ejemplo:
+
+- Un negocio o restaurante puede tener asociada varias categorías (Yelp: ```bus_cat```, Google: ```linked_category```)
+- Un negocio o restaurante puede tener asociada varias categorías de artículos no esenciales para la comida principal (Google: ```linked_miscellaneous```)
 
 ## 🛢️​Data Warehouse
 
@@ -30,13 +36,18 @@ Por lo tanto, a través de estos schemas se puede extraer la información con co
 
 ![BigQuery](../Imagenes/BigQuery.png)
 
-## 💡⚙️ ETL automatizado con Cloud Functions y Cloud Scheduler
+## 💡⚙️ Carga Incremental con Cloud Functions y Cloud Scheduler
 
 Para automatizar el proceso ETL cada vez que llegue data nueva al bucket "data_extraccion", se crearon dos funciones en Cloud Functions llamadas "etl-yelp" y "etl-google", las cuales se ejecutan una vez que son llamadas por Cloud Scheduler (actúa como temporizador) semanalmente.
 
 ![Cloud_Functions](../Imagenes/Cloud_Functions.png)
+![Google_Scheluder](../Imagenes/Google_Scheluder.png)
 
-Si desea reutilizar las funciones, considera las siguientes configuraciones (pueden variar dependiendo de tus requerimientos)
+### Configuraciones utilizadas
+
+Si deseas reutilizar las funciones así como los temporizadores, considera las siguientes configuraciones (pueden variar dependiendo de tus requerimientos)
+
+- **Google Function**
 
         - Environment: 2nd gen
         - Solo HTTP como trigger (Opción --> Require authentication Manage authorized users with Cloud IAM.)
@@ -44,14 +55,14 @@ Si desea reutilizar las funciones, considera las siguientes configuraciones (pue
         - CPU 2
         - Timeout 200 seconds   
 
-![Google_Scheluder](../Imagenes/Google_Scheluder.png)
+- **Google Scheluder**
 
-    Define the schedule
-    - Nombre/Descripcion/Region
-    - Frecuency (every 3 hours: "0 */3 * * *", every Monday at 9:00: "0 9 * * 1")
-    - Timezone (ARG)
+        Define the schedule
+      - Nombre/Descripcion/Region
+      - Frecuency (every 3 hours: "0 */3 * * *", every Monday at 9:00: "0 9 * * 1")
+      - Timezone (ARG)
 
-    Configure the execution
-    - Target type (HTTP)
-    - URL (de la funcion)
-    - HTTP method ---> POST
+        Configure the execution
+      - Target type (HTTP)
+      - URL (de la funcion)
+      - HTTP method ---> POST
