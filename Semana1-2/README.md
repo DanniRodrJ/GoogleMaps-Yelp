@@ -1,6 +1,18 @@
+# ```Puesta en Marcha del Proyecto```
+
 ## 🗄️​Data Cruda
 
 Fue proporcionada por el cliente a través de Google Drive y que a partir de ella usando Google Colab realizamos el análisis exploratorio preliminar.
+
+La información proporcionada fue la siguiente:
+
+- 📁 Google Maps: contenía 2 carpetas
+  - ```reviews-estados``` con 51 subcarpetas correspondientes a cada estado, las cuales incluían de 3 a 20 archivos .json
+  - ```metadata-sitios``` con 11 archivos .json
+
+- 📁 Yelp: contenían 5 archivos (3 .json, 1 .pkl y 1 .parquet)
+
+Para mayor comodidad concatenamos todos los archivos relacionados y para almacenar la menor cantidad de memoria posible fueron pasados todos los archivos a .parquet.
 
 ## 👀ETL-EDA Premilinar
 
