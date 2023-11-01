@@ -93,7 +93,7 @@ Además, las recomendaciones sobre la ubicación de nuevos locales y el sistema 
 
 ## ​🎬 Vídeo del proyecto
 
-¡Te invitamos a ver nuestro video de presentación del proyecto! Puedes acceder a el a través de este enlace: [video]().
+¡Te invitamos a ver nuestro video de presentación del proyecto! Puedes acceder a el a través de este enlace: [video](https://www.youtube.com/watch?v=YnS6enhmCu0).
 
 ## ​🤝​Equipo desarrollador
 
